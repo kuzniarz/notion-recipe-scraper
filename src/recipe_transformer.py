@@ -1,5 +1,6 @@
 import os
 from notion_client import Client
+from recipe_scrapers import scrape_me
 from dotenv import load_dotenv
 from pprint import pprint
 
