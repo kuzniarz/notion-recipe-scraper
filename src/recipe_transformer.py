@@ -1,6 +1,5 @@
 import os
 import sys
-import requests
 from notion_client import Client
 from recipe_scrapers import scrape_me
 from dotenv import load_dotenv
