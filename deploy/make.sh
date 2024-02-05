@@ -13,15 +13,15 @@ git pull
 
 echo Installing python dependencies...
 # Install dependencies
-if [ ! -d "./Scripts" ]; then
-    python -m venv .
-    source ./Scripts/activate
+if [ ! -f "./bin" ]; then
+    python3 -m venv .
+    source ./bin/activate
 fi
-./Scripts/python -m pip install -r requirements.txt
+./bin/python -m pip install -r requirements.txt
 
 #Create environment file
 echo Checking for environment variables...
-if [! -f ".env" ]; then
+if [ ! -f ".env" ]; then
     echo No .env file found. Do you want to setup the environment variables? \(y/n\)
     read startSetup
     if [$startSetup == y]; then
