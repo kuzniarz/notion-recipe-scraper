@@ -22,14 +22,12 @@ fi
 #Create environment file
 echo Checking for environment variables...
 if [ ! -f ".env" ]; then
-    echo No .env file found. Do you want to setup the environment variables? \(y/n\)
-    read startSetup
-    if [$startSetup == y]; then
-        echo Please enter the Notion integration token: 
-        read integrationToken
-        echo Please enter the database id: 
-        read databaseId
-        echo NOTION_TOKEN=$integrationToken >> .env
-        echo NOTION_DATABASE_ID=$databaseId >> .env
+    read -p "No .env file found. Do you want to setup the environment variables? (Y/N): " -n 1 -r
+    if [[ $REPLY =~ ^[Yy]$ ]]
+    then
+        read -p "Enter Notion integration token: " token
+        read -p "Enter database ID (32-digits): " databaseID
+        echo NOTION_TOKEN=$token >> .env
+        echo NOTION_DATABASE_ID=$databaseID >> .env
     fi
 fi
