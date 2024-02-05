@@ -23,6 +23,7 @@ fi
 echo Checking for environment variables...
 if [ ! -f ".env" ]; then
     read -p "No .env file found. Do you want to setup the environment variables? (Y/N): " -n 1 -r
+    echo 
     if [[ $REPLY =~ ^[Yy]$ ]]
     then
         read -p "Enter Notion integration token: " token
