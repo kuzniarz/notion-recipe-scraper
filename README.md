@@ -1,6 +1,11 @@
 # Notion Recipe Scraper
 This is the repository for the Notion recipe scraper automation. 
 
+## Background
+Initially, this was intended to just host the python script that facilitates the connection between the recipe-scraper API and notion. This script was then accessed via SSH. As this approach was just a barebone prototype which introduced several sercurity aspects, this application will be transformed to be a web service. Therefore, please keep in mind that this documentation may be outdated due to the transformation process.
+
+The application is based on a Python Flask backend with a React frontend.
+
 ## Getting Started
 ### Initialize environment
 To work with this project checkout the project sources and initialize the environment:
