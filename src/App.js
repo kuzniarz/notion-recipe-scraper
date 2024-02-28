@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        In case you need help, look into the 
+        <div
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          React Documentation
+        </div>
       </header>
+      <ApiResponse />
     </div>
+  );
+}
+
+function ApiResponse() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => setData(json))
+      .catch(error => console.error(error));
+  }, []);
+
+  return (
+    <div className="apiResponse">{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}</div>
   );
 }
 
