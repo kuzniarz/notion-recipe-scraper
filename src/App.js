@@ -1,37 +1,26 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Header from './components/Header';
+import Home from './components/Home';
+import RecipeForm from './components/RecipeForm';
+import Database from './components/Database';
+import Settings from './components/Settings';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        In case you need help, look into the 
-        <div
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React Documentation
-        </div>
-      </header>
-      <ApiResponse />
-    </div>
-  );
-}
-
-function ApiResponse() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => setData(json))
-      .catch(error => console.error(error));
-  }, []);
-
-  return (
-    <div className="apiResponse">{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}</div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />}/>
+        <Route path="/save-recipe" element={<RecipeForm />}/>
+        <Route path="/database" element={<Database />}/>
+        <Route path="/settings" element={<Settings />}/>
+      </Routes>
+    </Router>
   );
 }
 
