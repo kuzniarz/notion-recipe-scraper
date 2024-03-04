@@ -4,11 +4,11 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Header from './components/Header';
-import Home from './components/Home';
-import RecipeForm from './components/RecipeForm';
-import Database from './components/Database';
-import Settings from './components/Settings';
+import Header from './components/Header/Header';
+import Home from './pages/Home/Home';
+import RecipeForm from './pages/RecipeForm/RecipeForm';
+import Database from './pages/Database/Database';
+import Settings from './pages/Settings/Settings';
 
 function App() {
   return (

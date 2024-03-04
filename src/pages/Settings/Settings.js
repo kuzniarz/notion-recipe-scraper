@@ -1,18 +1,19 @@
-import Container from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card';
+import './Settings.css';
+import Container from 'react-bootstrap/Container'; 
+import Card from "react-bootstrap/Card";
 
-function Database() {
+function Settings(){
     return (
         <Container className="justify-content-md-center">
             <Card className="">
-            <Card.Header><b>Database</b></Card.Header>
+            <Card.Header><b>Settings</b></Card.Header>
             <Card.Body>
                 <Card.Text>Coming soon.
                 </Card.Text>
             </Card.Body>
             </Card>
         </Container>
-      );
+    );
 }
 
-export default Database;
+export default Settings;

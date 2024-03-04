@@ -1,5 +1,4 @@
 import './RecipeForm.css'
-import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
@@ -29,21 +28,6 @@ function RecipeForm(){
             </Card>
         </Container>
     );
-}
-
-function ApiResponse() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => setData(json))
-      .catch(error => console.error(error));
-  }, []);
-
-  return (
-    <div className="apiResponse">{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}</div>
-  );
 }
 
 export default RecipeForm;
