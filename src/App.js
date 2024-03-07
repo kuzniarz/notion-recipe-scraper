@@ -1,14 +1,10 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from './components/Header/Header';
-import Home from './pages/Home/Home';
-import RecipeForm from './pages/RecipeForm/RecipeForm';
-import Database from './pages/Database/Database';
-import Settings from './pages/Settings/Settings';
+import Home from './pages/Home';
+import RecipeForm from './pages/RecipeForm';
+import Database from './pages/Database';
+import Settings from './pages/Settings';
 
 function App() {
   return (

@@ -8,18 +8,18 @@ GIT_URL=https://github.com/kuzniarz/notion-recipe-scraper
 ### Pull new changes from https://github.com/kuzniarz/notion-recipe-scraper
 
 echo Updating project version...
-cd ..
+cd .. # TODO: Maybe this should be refined
 git pull
 
+### Install dependencies
 echo Installing python dependencies...
-# Install dependencies
 if [ ! -f "./bin" ]; then
     python3 -m venv .
     source ./bin/activate
 fi
 ./bin/python -m pip install -r requirements.txt
 
-#Create environment file
+### Create environment file
 echo Checking for environment variables...
 if [ ! -f ".env" ]; then
     read -p "No .env file found. Do you want to setup the environment variables? (Y/N): " -n 1 -r
@@ -32,3 +32,7 @@ if [ ! -f ".env" ]; then
         echo NOTION_DATABASE_ID=$databaseID >> .env
     fi
 fi
+
+### Download node.js dependencies
+echo Installing all web app dependencies
+npm install
