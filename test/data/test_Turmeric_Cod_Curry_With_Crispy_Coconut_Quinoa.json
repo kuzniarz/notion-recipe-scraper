@@ -1,0 +1,404 @@
+{
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://files.mob-cdn.co.uk/recipes/2024/01/Turmeric-Cod-Curry-With-Crispy-Coconut-Quinoa.jpg"
+    }
+  },
+  "icon": {
+    "type": "external",
+    "external": {
+      "url": "https://www.notion.so/icons/dining_gray.svg"
+    }
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "59491b76-524c-4b4e-a902-1a355b70fb88"
+  },
+  "properties": null,
+  "children": [
+    {
+      "object": "block",
+      "type": "column_list",
+      "column_list": {
+        "children": [
+          {
+            "object": "block",
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "object": "block",
+                  "heading_2": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Ingredients"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "70g Desiccated Coconut"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "140g Pouch of Cooked Quinoa"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "4 Cod Fillets (About 600g)"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "2 Limes"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "3 Tsp Ground Turmeric"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "2 Tsp Ground Cumin"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "1 Big Shallot"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "2 Red Chillies"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "4 Garlic Cloves"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "30g Ginger"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "25g Coriander"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "250g Cherry Tomatoes"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "400ml Coconut Milk"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "1 Tbsp Fish Sauce"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "250ml Water"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "250g Kale"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Olive Oil"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Salt"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Black Pepper"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Rice, To Serve"
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "object": "block",
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "object": "block",
+                  "heading_2": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Instructions"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Heat the oven to 200\u00b0C. Tip the desiccated coconut and quinoa onto a baking tray, drizzle with oil, salt and pepper and cook for 10 mins until crispy. "
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Put the ginger, garlic, chilli, shallot, coriander stalks, turmeric and cumin into a blender and blitz until smooth. You may need to add a splash of water to help it along."
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Heat a drizzle of oil in a pan, then add the paste you\u2019ve just made. Cook for about 5 mins until thickened. Add the coconut milk, tomatoes, fish sauce and water, then bring to a simmer. Taste and season with salt and pepper if needed. "
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Add the kale (you may need to do this in batches) and stir until reduced in volume but not entirely wilted. Top with the cod fillets and season them with salt and pepper. Pop the lid back on and cook for 5-10 mins \u2013 this will depend on the thickness of the cod fillets. You\u2019re looking for the fish to have no resistance and flake off in big pieces."
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "bulleted_list_item": {
+                    "rich_text": [
+                      {
+                        "text": {
+                          "content": "Serve the curry topped with the crispy quinoa and reserved coriander leaves. You can eat as is or with a side of rice, potatoes or chapati."
+                        }
+                      }
+                    ],
+                    "color": "default"
+                  }
+                },
+                {
+                  "object": "block",
+                  "type": "image",
+                  "image": {
+                    "type": "external",
+                    "external": {
+                      "url": "https://files.mob-cdn.co.uk/recipes/2024/01/Turmeric-Cod-Curry-With-Crispy-Coconut-Quinoa.jpg"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
