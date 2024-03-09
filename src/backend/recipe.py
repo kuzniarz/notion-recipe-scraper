@@ -1,4 +1,4 @@
-from utils import is_list_of_strings
+from utils import Utils
 
 class Recipe:
     _title: str
@@ -17,9 +17,9 @@ class Recipe:
         assert isinstance(yields, int), "yield must be an int"
         assert isinstance(external, str), "external must be a str"
         assert isinstance(image, str), "image url must be a str"
-        assert is_list_of_strings(tags), "tags must be a list of str"
-        assert is_list_of_strings(ingredients), "ingredients must be a list of str"
-        assert is_list_of_strings(instructions), "instructions must be a list of str"
+        assert Utils.is_list_of_strings(tags), "tags must be a list of str"
+        assert Utils.is_list_of_strings(ingredients), "ingredients must be a list of str"
+        assert Utils.is_list_of_strings(instructions), "instructions must be a list of str"
 
         self._title = title
         self._duration = duration
@@ -67,15 +67,15 @@ class Recipe:
         self._external = external
 
     def set_tags(self, tags:list):
-        assert is_list_of_strings(tags), "tags must be a list of str"
+        assert Utils.is_list_of_strings(tags), "tags must be a list of str"
         self._tags = tags
 
     def set_ingredients(self, ingredients:list):
-        assert is_list_of_strings(ingredients), "ingredients must be a list of str"
+        assert Utils.is_list_of_strings(ingredients), "ingredients must be a list of str"
         self._ingredients = ingredients
 
     def set_instructions(self, instructions:list):
-        assert is_list_of_strings(instructions), "instructions must be a list of str"
+        assert Utils.is_list_of_strings(instructions), "instructions must be a list of str"
         self._instructions = instructions
 
     def set_image(self, image:str):

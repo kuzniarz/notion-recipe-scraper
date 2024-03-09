@@ -83,7 +83,7 @@ class NotionPageBuilder:
     def create_recipe_page(self, recipe:Recipe):    
         self.page["cover"] = {
             "type": "external",
-            "external": {"url": recipe.external()}
+            "external": {"url": recipe.image()}
             }
         self.page["icon"] = {
             "type": "external",

@@ -3,7 +3,6 @@ from flask import request
 from recipe_factory import RecipeFactory
 from notion_handler import NotionHandler
 
-
 app:Flask = Flask(__name__)
 notion_handler = NotionHandler()
 recipe_factory  = RecipeFactory()
